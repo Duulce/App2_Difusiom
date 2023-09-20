@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {GALERIAComponent} from '../app/COMPONENTES/PAGES/GALERIA/galeria.component';
 import {INICIOComponent} from '../app/COMPONENTES/PAGES/INICIO/inicio.component';
+import {DATOSComponent} from '../app/COMPONENTES/PAGES/DATOS/datos.component';
+import {GALERIAComponent} from '../app/COMPONENTES/PAGES/GALERIA/galeria.component';
 import {MAPAComponent} from '../app/COMPONENTES/PAGES/MAPA/mapa.component';
 
 
 const routes: Routes = [
-
+  {path:'Inicio',component:INICIOComponent},
+  {path:'Datos',component:DATOSComponent},
   {path:'Galeria',component:GALERIAComponent},
   {path:'Mapa',component:MAPAComponent},
   {path:'**',component:INICIOComponent}
