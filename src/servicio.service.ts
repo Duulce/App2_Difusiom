@@ -1,0 +1,20 @@
+import {Injectable} from '@angular/core';
+import {HttpClient}from '@angular/common/http';
+import {Observable} from 'rxjs';
+
+@Injectable({
+    providedIn:'root'
+})
+
+export class ServicioService{
+    URL="assets/Datos/del_ahorro.json";
+
+    constructor(private http:HttpClient){
+
+    }
+get(){
+    return this.URL;
+}
+
+
+}

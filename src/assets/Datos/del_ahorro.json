@@ -1,0 +1,44 @@
+[
+ {
+  "ID": 1,
+  "Farmacia": "Del ahorro",
+  "latitud": 22.153241,
+  "longitud": -100.920953999999
+ },
+ {
+  "ID": 2,
+  "Farmacia": "Del ahorro",
+  "latitud": 22.1418029999999,
+  "longitud": -100.933239
+ },
+ {
+  "ID": 3,
+  "Farmacia": "Del ahorro",
+  "latitud": 22.1343999999999,
+  "longitud": -100.936402999999
+ },
+ {
+  "ID": 4,
+  "Farmacia": "Del ahorro",
+  "latitud": 22.141929,
+  "longitud": -100.953075999999
+ },
+ {
+  "ID": 5,
+  "Farmacia": "Del ahorro",
+  "latitud": 22.133056,
+  "longitud": -100.957307
+ },
+ {
+  "ID": 6,
+  "Farmacia": "Del ahorro",
+  "latitud": 22.151446,
+  "longitud": -100.960025999999
+ },
+ {
+  "ID": 7,
+  "Farmacia": "Del ahorro",
+  "latitud": 22.1679339999999,
+  "longitud": -100.956074999999
+ }
+]
