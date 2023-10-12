@@ -1,10 +1,20 @@
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body" *ngFor="let item of FarmaciasList">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">{{item.ID}}</p>
-      <p class="card-text">{{item.Farmacia}}</p>
-      <p class="card-text">{{item.latitud}}</p>
-      <p class="card-text">{{item.longitud}}</p>  
-    </div>
-  </div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let item of FarmaciasList">
+    <tr>
+      <th scope="row">1</th>
+      <td>{{item.ID}}</td>
+      <td>{{item.Farmacia}}</td>
+      <td>{{item.latitud}}</td>
+      <td>{{item.longitud}}</td>
+    </tr>
+  
+  </tbody>
+</table>

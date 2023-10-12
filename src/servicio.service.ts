@@ -13,8 +13,7 @@ export class ServicioService{
 
     }
 get(){
-    return this.URL;
+    return this.http.get(this.URL)
 }
-
 
 }
