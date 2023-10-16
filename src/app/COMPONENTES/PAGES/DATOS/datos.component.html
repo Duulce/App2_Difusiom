@@ -1,20 +1,40 @@
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody *ngFor="let item of FarmaciasList">
-    <tr>
-      <th scope="row">1</th>
-      <td>{{item.ID}}</td>
-      <td>{{item.Farmacia}}</td>
-      <td>{{item.latitud}}</td>
-      <td>{{item.longitud}}</td>
-    </tr>
-  
-  </tbody>
-</table>
+<section>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+        <th scope="col">Detalle</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let item of FarmaciasList">
+      <tr>
+        <th scope="row">1</th>
+        <td>{{item.ID}}</td>
+        <td>{{item.Farmacia}}</td>
+        <td>{{item.latitud}}</td>
+        <td>{{item.longitud}}</td>
+        <td class="btn btn-primary" (click)="Detalle(item.ID)">Detalle</td>
+      </tr>
+    
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <div class="card" style= "width: 18rem;" *ngFor="let item of FarmaciasList">
+    <img src="assets/img/Ahorro/{{item.ID}}.jpeg" class="card-img-top" alt="...">
+    <div class="card body">
+      <h5 class="card-title">{{item.Farmacia}}</h5>
+      <p class="card-text"> Lorem impsum dolor sit amet cons.....</p>
+      <p>{{item.latitud}}</p>
+      <p>{{item.longitud}}</p>
+    </div>
+  </div>
+
+</section>
+
+

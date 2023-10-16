@@ -15,4 +15,8 @@ constructor(private SVC:ServicioService, private router:Router){
     this.FarmaciasList=result
   })
   }
+  Detalle(ID:String){
+    this.router.navigate(['ID',ID]);
+    console.log(ID)
+  }
 }

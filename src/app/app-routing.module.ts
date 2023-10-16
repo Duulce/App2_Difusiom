@@ -4,6 +4,7 @@ import {INICIOComponent} from '../app/COMPONENTES/PAGES/INICIO/inicio.component'
 import {DATOSComponent} from '../app/COMPONENTES/PAGES/DATOS/datos.component';
 import {GALERIAComponent} from '../app/COMPONENTES/PAGES/GALERIA/galeria.component';
 import {MAPAComponent} from '../app/COMPONENTES/PAGES/MAPA/mapa.component';
+import {DetallesComponent} from '../app/COMPONENTES/PAGES/DATOS/detalles/detalles.component';
 
 
 const routes: Routes = [

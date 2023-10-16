@@ -15,5 +15,12 @@ export class ServicioService{
 get(){
     return this.http.get(this.URL)
 }
-
+ /*       GetById(ID:String){
+            return new Observable(observer =>{
+                this.get().subscribe((result:any[])=>{
+                    const filtro =result.filter(item=> item.ID === ID)
+                    return observer.next(filtro[0]);
+                })
+            })
+        }*/
 }

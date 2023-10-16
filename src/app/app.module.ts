@@ -9,7 +9,8 @@ import { GALERIAComponent } from './COMPONENTES/PAGES/GALERIA/galeria.component'
 import { DATOSComponent } from './COMPONENTES/PAGES/DATOS/datos.component';
 import { MAPAComponent } from './COMPONENTES/PAGES/MAPA/mapa.component';
 import { FooterComponent } from './COMPONENTES/footer/footer.component';
-import{HttpClientModule}from '@angular/common/http'
+import{HttpClientModule}from '@angular/common/http';
+import { DetallesComponent } from './COMPONENTES/PAGES/DATOS/detalles/detalles.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import{HttpClientModule}from '@angular/common/http'
     GALERIAComponent,
     DATOSComponent,
     MAPAComponent,
-    FooterComponent
+    FooterComponent,
+    DetallesComponent
   ],
   imports: [
     BrowserModule,
